@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.function.Consumer;
 
 public class Main {
     private static Compte compte = null;
@@ -101,7 +100,7 @@ public class Main {
 
     private static void startMain(int index){
         if (index == -1) return;
-        else if((index > 1 && index < 5) && !isLogged()){
+        else if((index > 1 && index < 6) && !isLogged()){
             System.out.println("Veuillez vous connecter pour accéder à cette fonctionnalité");
         }else if(index == 0){
             creerCompte();

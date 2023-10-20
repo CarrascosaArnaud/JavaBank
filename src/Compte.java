@@ -58,7 +58,6 @@ public class Compte {
     public void ajoutArgent(double argent){
         this.argent += argent;
         System.out.println(argent + "€ ont été ajoutés à votre compte.\n");
-        getArgent();
     }
 
     public boolean retireArgent(double argent){
